@@ -1,0 +1,9 @@
+#skeleton>section{
+    background-color: #fff;
+    height: 95vh;
+}
+#skeleton>footer{
+    background-color: var(--bg-dark);
+    height: 5vh;
+    border-top: 1px solid #fff;
+}

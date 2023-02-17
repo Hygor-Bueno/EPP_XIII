@@ -1,0 +1,86 @@
+div.login{
+    display:flex;
+    flex-direction:column;
+    height: 100vh;
+}
+#content-login {
+    background-image: url('../../Assets/Images/pegpese_bolonha.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow-y: auto;
+}
+
+#section-login {
+    width: 340px;
+    height: 350px;
+    border-radius: var(--bd-radius-m);
+    background-color: #006549AA;
+}
+
+
+#user-login, #password-login {
+    margin: 23px 0px;
+    width: 300px;
+    height: 44px;
+    border-bottom: 1px solid #fff;
+}
+
+#password-login>span {
+    font-size: 35px;
+}
+
+#user-login input, #password-login input {
+    background: none;
+    border: none;
+    font-size: 25px;
+    width: 100%;
+    color: white;
+}
+
+#user-login input::placeholder, #password-login input::placeholder {
+    color: #ffffffaa;
+    text-align: inherit;
+}
+
+#content-login>#section-login>button {
+    width: 150px;
+    height: 40px;
+    margin-top: 40px;
+    border-radius: var(--bd-radius-g);
+    border: none;
+    background-color: #DF7F1D;
+    color: #fff;
+    font-size: 25px;
+}
+
+
+/* Estilo do modal */
+#modalPasswordDefault{
+    width: 250px;
+    height: 370px;
+}
+
+#modalPasswordDefault >header >button{
+    background-color: #B5001A;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    margin-top: -20px;
+    margin-right: -20px;
+}
+#modalPasswordDefault >form{
+    height:230px;
+}
+#modalPasswordDefault >form >button{
+    width: 150px;
+    height: 40px;
+    background-color: #006549;
+    border-radius: var(--bd-radius-g);
+    border: none;
+    color: #fff;
+    font-size: 25px;
+}

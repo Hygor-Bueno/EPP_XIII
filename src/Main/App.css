@@ -1,0 +1,32 @@
+:root {
+    --bg-dark: #297073;
+    /* --bg-dark: #004030; */
+    --sc-orange:#DF7F1D;
+    --logo-height: 100px;
+    --header-height: 100px;
+    --aside-width: 200px;
+    --footer-height: 40px;
+    --bd-radius-p: 4px;
+    --bd-radius-m: 8px;
+    --bd-radius-g: 16px;
+
+    --shadow:
+        0 2px 23px 0 rgba(0, 0, 0, 0.1),
+        0 2px 49px 0 rgba(0, 0, 0, 0.06);
+}
+
+@font-face {
+    font-family: 'RobotoMono';
+    src: url('../Assets/Fonts/RobotoMono-Regular.ttf');
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "RobotoMono",sans-serif;
+}
+.legend{
+    font-size:12px;
+}
+.textareaDefault{   
+    resize: none;
+}
